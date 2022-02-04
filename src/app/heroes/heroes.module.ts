@@ -3,13 +3,13 @@ import { ListadoComponent } from './listado/listado.component';
 import { HeroeComponent } from './heroe/heroe.component';
 import { CommonModule } from "@angular/common";
 
-@NgModule({
+@NgModule({ 
     declarations:[
         HeroeComponent,
         ListadoComponent
     ],
     exports: [
-        ListadoComponent
+        ListadoComponent,
     ],
     imports: [
         CommonModule
